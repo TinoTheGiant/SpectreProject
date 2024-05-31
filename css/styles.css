@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: #fff;
     font-family: 'Poppins', sans-serif;
@@ -117,6 +121,252 @@ header {
     margin-top: 25px;
 }
 
+/* Titles */
+
+.feature-title {
+    font-weight: 200;
+    font-size: 3rem;
+    padding: .5rem 0 .5rem 0;
+    opacity: .5;
+    text-align: center;
+    display: inline-block;
+    border-bottom: 1px solid #bcb9b9;
+    margin: 0 auto 2rem;
+}
 
 
+.center{
+    text-align: center;
+}
+
+.yeo-body {
+    max-width: 1280px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+}
+
+/* Our Client*/
+
+.yeo-client {
+    background: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.yeo-client-title {
+    text-align: center;
+    font-size: 1rem;
+    margin: 0 0 1.5rem 0;
+    font-weight: 200;
+    opacity: .5;
+}
+
+.yeo-client a {
+    display: inline-block;
+    margin-right: 3.5rem;
+}
+
+.yeo-client a:last-child {
+    margin: 0;
+}
+
+.yeo-client img {
+    height: 44px;
+}
   
+
+/* about */
+.about-column {
+    padding: 20px;
+    text-align: center;
+}
+
+/* software */
+.software-column {
+    padding: 20px;
+    text-align: center;
+}
+
+#software{
+    background: #f4f4f4;
+    padding: 2rem 0;
+}
+/* Open Source */
+
+.yeo-open-source {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.open-source-feature {
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.yeo-open-source .btn-open-source {
+    padding: .8rem 1.5rem;
+    background: #2623d0;
+    border-color: #ddd;
+    color: #fff;
+    height: auto;
+}
+
+/* apparell */
+.apparell-column {
+    padding: 20px;
+    text-align: center;
+}
+.apparell-column img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Add some spacing between image and text */
+}
+
+
+/* form */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+.form-group .form-checkbox label {
+    display: flex;
+    align-items: center;
+}
+.form-group .form-checkbox input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+.btn {
+    padding: .8rem 1.5rem;
+    background: #2623d0;
+    border-color: #ddd;
+    color: #fff;
+    height: auto;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* footer */
+.yeo-footer {
+    color: #fff;
+    padding: 3rem 0;
+
+background-image: -webkit-linear-gradient(44deg, #d9522a 0%, #bab5af 100%);
+background-image: -o-linear-gradient(44deg,#d9522a 0%, #bab5af 100%);
+background-image: linear-gradient(134deg, #d9522a 0%, #bab5af 100%);
+}
+
+.yeo-footer h4 {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.yeo-footer .nav .nav-item a {
+    padding: .3rem 0rem;
+    color: #fff;
+    opacity: 0.8;
+    font-weight: 200;
+}
+
+.footerimage{
+   margin: auto;
+}
+
+
+/* mobile styles */
+
+@media (max-width: 600px) {
+
+    .slogan {
+        padding-top: 0rem;
+    }
+
+    .slogan h1 {
+        font-size: 1.6rem;
+        line-height: 1.5;
+        margin-bottom: .5rem;
+    }
+
+    .yeo-slogan {
+        padding-bottom: 2rem;
+    }
+
+    .yeo-slogan p {
+        font-size: .7rem;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .yeo-do {
+        padding: 1rem 0 2rem 0;
+    }
+
+    .yeo-do .yeo-do-content {
+        padding-right: 0;
+        padding-bottom: 1.5rem;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 1.5rem;
+    }
+
+    .yeo-client a {
+        margin: 10px 15px;
+    }
+
+
+
+    .yeo-open-source {
+        padding: 2rem 0;
+    }
+
+    .open-source-feature {
+        font-size: 2rem;
+    }
+
+    .yeo-client img {
+    height: 30px;
+}
+
+    .yeo-footer {
+        padding: 2rem 0;
+    }
+
+    .yeo-footer-content {
+        padding-bottom: 1rem;
+    }
+
+    .yeo-footer h4 {
+        font-size: 1rem;
+        color: #fff;
+        margin-bottom: 0;
+    }
+
+    .feature-title {
+        font-weight: 200;
+        font-size: 1rem;
+        padding: 1rem 0 1rem 0;
+        opacity: .5;
+    }
+
+}
