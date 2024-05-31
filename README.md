@@ -1,9 +1,13 @@
 ## This is a fully responsive single-page website made using HTML and Spectre CSS.
 ### ProLaps is a fictional sports apparel company in GTA games that I decided to create a website for.
+To find out more about the  Prolaps in GTA V read here: 
+https://gta.fandom.com/wiki/ProLaps
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,netlify,vercel&perline=6)](https://skillicons.dev)
 
 # This is what the Website looks like:
+   https://prolaps.vercel.app/
+   
 # Home Page
 
 <img width="1279" alt="image" src="https://github.com/TinoTheGiant/SpectreProject/assets/151691155/044ae8cf-4e64-4e66-91f9-28ae8fbd7d57">
